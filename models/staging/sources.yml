@@ -10,19 +10,11 @@ sources:
             description: "Product orders table"
           - name: reviews
             description: "Customer reviews table"
-          - name: dim_customers
-            description: "Customers dimension table"
-          - name: dim_addresses
-            description: "Addresses dimension table"
-          - name: dim_products
-            description: "Products dimension table"
-          - name: shipments_deliveries
+          - name: shipment_deliveries
             description: "Shipments deliveries table"
-          - name: dim_dates
-            description: "Dates dimension table"
-models:
-  - meta:
-      fal:
-        scripts:
-          before:
-            - fal_scripts/load_data.py
+# models:
+#   - meta:
+#       fal:
+#         scripts:
+#           before:
+#             - fal_scripts/load_data.py
