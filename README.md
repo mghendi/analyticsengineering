@@ -8,12 +8,12 @@ My response for the technical assessment of the Analytics Engineering role at Da
 To initialize a local instance of dbt-core for the project:
  - Build the docker image
 
-   `docker build -t terraform-with-tools .`
+   `docker build -t dbt-venv .`
    
-  This will create a Docker image named terraform-with-tools.
+  This will create a Docker image named dbt-venv.
 
 - Run the container:
 
-  `docker run -it --rm -v /path/to/local/code:/app terraform-with-tools`
+  `docker run -it --rm -v /path/to/local/code:/app dbt-venv`
 
 - Once inside the container, Python, pip, AWS CLI, dbt-core, and boto3 can be deployed as needed.
