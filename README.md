@@ -4,8 +4,7 @@ I created this repo as practice for dbt in a production environment. The structu
 
  ### Background
  
- - Data is ingested into the organization's AWS data lake daily.
- - The directory contains:
+ - The project contains:
    - orders.csv: Fact table about orders gotten on their website
    - reviews.csv: Fact table on reviews given for a particular delivered product
    - shipments_deliveries.csv: Fact table on shipments and their delivery dates
@@ -20,13 +19,21 @@ I created this repo as practice for dbt in a production environment. The structu
  - Postgres - Data warehouse
  - AWS S3 - Data lake
  - Docker - Infrastructure
+ - Akuko - Visualization
  
  ### Process
  
  - The data was extracted from the AWS bucket using the `load_data.py` script in the [fal_scripts](https://blog.fal.ai/populate-dbt-models-with-csv-data/) directory.
  - Three main directories were created for the models i.e. `Staging`, `Intermediate` and `Marts`. The `Marts` models are materialized as tables upon running a production job in dbt.
  - The production tables have been created on the `samumghe3893_analytics` schema.
- - Each model and script includes necessary comments detailing my thought process. 
+ - Each model and script includes necessary comments detailing my thought process.
+
+### Dashboard
+
+- The dashboard has been created on [Akuko](akuko.io)
+
+![image](https://github.com/mghendi/suluhu/assets/26303032/9741074e-e036-4c32-a20e-f1b0031456aa)
+
 
 To initialize a local instance of dbt-core for the project:
  - Build the docker image
