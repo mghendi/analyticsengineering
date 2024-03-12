@@ -30,7 +30,7 @@ I created this repo as practice for dbt in a production environment. The structu
 
 ### Dashboard
 
-- The dashboard has been created on [Akuko](akuko.io)
+- The dashboard has been created on [Akuko](https://akuko.io/)
 
 ![image](https://github.com/mghendi/suluhu/assets/26303032/9741074e-e036-4c32-a20e-f1b0031456aa)
 
