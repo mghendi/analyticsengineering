@@ -16,7 +16,7 @@ I created this repo as practice for dbt in a production environment. The structu
  - Python - Extract and load
  - SQL - Transformation
  - dbt - Data modeling and testing
- - Postgres - Data warehouse
+ - PostgreSQL - Data warehouse
  - AWS S3 - Data lake
  - Docker - Infrastructure
  - Akuko - Visualization
