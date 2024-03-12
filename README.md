@@ -25,7 +25,7 @@ I created this repo as practice for dbt in a production environment. The structu
  
  - The data was extracted from the AWS bucket using the `load_data.py` script in the [fal_scripts](https://blog.fal.ai/populate-dbt-models-with-csv-data/) directory.
  - Three main directories were created for the models i.e. `Staging`, `Intermediate` and `Marts`. The `Marts` models are materialized as tables upon running a production job in dbt.
- - The production tables have been created on the `samumghe3893_analytics` schema.
+ - The production tables have been created on the `reporting` schema.
  - Each model and script includes necessary comments detailing my thought process.
 
 ### Dashboard
